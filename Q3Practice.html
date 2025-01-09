@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<title>Q3Practice</title>
+	<style>
+		#quotetext{
+			position: absolute;
+			top: 75%;
+			left:53%;
+			transform: translate(-50%, -50%);
+			font-size: 120%;
+
+		}
+		img{
+			position: absolute;
+			left: 25%;
+
+		}
+	</style>
+</head>
+<body>
+
+
+<h1 style="font-family: gill sans">Quote of The Day</h1>
+<br>
+<div class="container-fluid" id="main">
+	<div class="row">
+		<center>
+			<div class="col-md-4" id="div2">
+				<img src="https://i.pinimg.com/736x/15/e1/b4/15e1b4b76a329aa23deeb9a263e2342f.jpg">
+				<div id="quotetext" class="col-md-3">
+					<p id="quote1"></p>
+					<p id="owner"></p>
+				</div>
+			</div>
+		</center>
+
+</div>
+</div>
+
+<!--
+
+<p id="sample">text</p>
+
+-->
+
+<script>
+ let quote1 ="I wanna eat his biceps like a chicken wing";
+ let name = "-My friend from Ruby";
+
+document.getElementById("quote1").innerHTML= quote1 + "<br>";
+document.getElementById("owner").innerHTML= name;
+
+	/*
+	let goal1, goal2, goal3;
+	goal1 = "To get back at drawing"; //none stope
+	goal2 = "To lose weight"; //quarter 3
+	goal3 = "Save a lot of money";
+
+
+	document.getElementById("sample").innerHTML = goal1;
+	document.write("<h2 style='color: green;'>" + goal2 + "</h2>");
+	window.alert(goal3);
+
+
+	 let a,b;
+
+	 a = 5;
+	 b = 4;
+
+     //document.getElementById("sample").innerHTML = a + b;
+     //document.write(a*b);
+     window.alert(a/b);
+     */
+
+ </script>
+
+</body>
+</html>
